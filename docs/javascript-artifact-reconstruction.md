@@ -160,7 +160,7 @@ must also satisfy the new admission. For CLI or future MCP processes, set
 `REA_ASAR_MAX_HEADER_BYTES` in the launch environment. Changing that environment
 requires a new REA process. Invalid launch values are configuration errors,
 never a silent fallback. See the
-[settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md#failure-and-retry) for recovery
+[settings design](design/limits-and-recovery.md#failure-and-retry) for recovery
 metadata, precedence, and reset behavior.
 
 The archive index is read before any member can be selected, so
@@ -777,7 +777,7 @@ analyzer; the caller's `NODE_OPTIONS` still controls the CLI/MCP process heap.
 For defaults across new MCP operations, use `update_analysis_settings` with
 `javascript.max_heap_mb` or `javascript.analysis_timeout_ms`. Explicit per-call
 arguments take precedence, and accepted work keeps its original settings. See
-the [settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md#precedence-and-lifetime).
+the [settings design](design/limits-and-recovery.md#precedence-and-lifetime).
 V8 old-space limits do not impose a process RSS limit. When REA runs on Bun,
 the analyzer ignores the V8 heap flags; resource failures then report
 `worker_heap_limit_bytes` as null instead of a requested or V8-reported limit.

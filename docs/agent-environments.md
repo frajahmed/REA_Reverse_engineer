@@ -3,7 +3,7 @@
 For a first environment, start with the
 [quickstart](agent-environments-quickstart.md): record an app or use a saved
 session, build and run the environment, and add tasks and reward checks.
-The [implementation index](https://github.com/morluto/rea/blob/main/docs/specs/agent-environments/README.md) links
+The [implementation index](specs/agent-environments/README.md) links
 the contributing PRs and their verification records. This page is the detailed
 command and behavior reference.
 

@@ -406,7 +406,7 @@ issue facts needed for the question. For a small report where both collections
 are needed, `detail: "complete"` can cost less than a summary followed by two
 pages. Paging saves irrelevant row text but adds calls and schema overhead; it
 does not imply lower total latency or memory. See the
-[completed-query measurements](https://github.com/morluto/rea/blob/main/docs/verification/il2cpp-generic-instances-2026-10-24.md).
+[completed-query measurements](verification/il2cpp-generic-instances-2026-10-24.md).
 Like method addresses, these rows are derived from static tables; layout agreement
 is structural evidence, not proof of runtime use.
 

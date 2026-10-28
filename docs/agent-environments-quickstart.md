@@ -200,5 +200,5 @@ those values or establish that the recording contains no credentials.
 
 For direct MCP serving, replay behavior, state controls, and resource limits,
 see the [environment reference](agent-environments.md). The
-[implementation index](https://github.com/morluto/rea/blob/main/docs/specs/agent-environments/README.md) links the contributing
+[implementation index](specs/agent-environments/README.md) links the contributing
 PRs and their verification records.

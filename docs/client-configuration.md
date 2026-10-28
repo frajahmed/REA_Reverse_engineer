@@ -54,7 +54,7 @@ raising a REA startup or operation deadline, separately ensure the client allows
 enough time for the full request. Use `inspect_analysis_settings` for the running
 server's defaults; `rea doctor` checks launch configuration and cannot observe
 another process's runtime overrides. See the
-[settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md) for ownership and lifetime.
+[settings design](design/limits-and-recovery.md) for ownership and lifetime.
 
 ## Client tool names and discovery
 

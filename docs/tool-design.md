@@ -81,7 +81,7 @@ satisfy. A plan without execution does not establish runtime behavior.
   constraints. Report pagination, truncation, cancellation, and partial failure.
   An assumed agent budget is insufficient justification for a limit. Name the
   ceiling and its recovery as described in
-  [admission limits and recovery](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md).
+  [admission limits and recovery](design/limits-and-recovery.md).
 
 ### Interpret boundary facts once
 

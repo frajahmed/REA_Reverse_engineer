@@ -655,7 +655,7 @@ bounds each upstream call. Timeout recovery reports the effective milliseconds
 and range, with `details.limit` identifying the runtime setting. An invalid
 provider-local launch value can also be repaired by a runtime override; reset
 exposes that invalid launch value again. See the
-[settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md#invalid-launch-configuration).
+[settings design](design/limits-and-recovery.md#invalid-launch-configuration).
 A passing JADX configuration check in `rea doctor` reports its launch-derived
 `operation_timeout_ms`; it does not inspect another running server's overrides. Explicit
 cancellation still ends the operation immediately, and partial observations

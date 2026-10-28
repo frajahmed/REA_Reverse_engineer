@@ -1014,11 +1014,11 @@ failing owner supports runtime recovery; `inspect_analysis_settings` is optional
 when those facts are supplied. Updates are atomic, apply to new work, survive
 target close/open, and vanish when REA exits. Explicit per-call arguments take
 precedence. Neither tool changes host deadlines or resolves retained cleanup.
-See [runtime settings and recovery](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md#runtime-settings-through-mcp)
+See [runtime settings and recovery](design/limits-and-recovery.md#runtime-settings-through-mcp)
 for the full setting list, reset/revision semantics and ASAR retry example.
 For implementation ownership, accepted-operation snapshots, provider wiring,
 and extension guidance, see the
-[maintainer design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md#ownership-and-data-flow).
+[maintainer design](design/limits-and-recovery.md#ownership-and-data-flow).
 
 Ghidra and Hopper startup updates apply to the next startup attempt without
 restarting REA. Ghidra decompile timeout updates apply on the existing Program.

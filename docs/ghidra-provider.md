@@ -249,7 +249,7 @@ Runtime updates apply to newly accepted operations on the existing Program.
 They preserve accepted budgets and do not clear cleanup blockers or change the
 client deadline. Transient decompile timeout failures remain uncached so the
 same function can be retried after raising the limit. See the
-[settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md) for snapshots, precedence,
+[settings design](design/limits-and-recovery.md) for snapshots, precedence,
 and provider integration.
 
 Function extents and instruction completeness refer to Ghidra's analyzed body.

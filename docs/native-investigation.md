@@ -301,7 +301,7 @@ configuration errors and do not fall back to 128. The setting is read from
 the environment that starts REA, while MCP `regex.worker_heap_request_mib`
 can override it for workers belonging to newly accepted searches. Use
 `update_analysis_settings` for either runtime control; accepted work keeps its
-budget. See the [settings design](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md).
+budget. See the [settings design](design/limits-and-recovery.md).
 A heap failure names the effective request, known source, default, floor, and
 maximum. A positive Node.js
 `--max-old-space-size` on the process that starts

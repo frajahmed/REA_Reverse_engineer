@@ -63,10 +63,10 @@ For runtime instrumentation, see the [Frida guide](./frida-instrumentation.md).
 | Use CLI/MCP and retain evidence                     | [CLI](cli.md), [MCP contracts](mcp-contracts.md), [agent prompts](mcp-prompts.md), [obligation ledgers](reconstruction-obligation-ledgers.md)                                                                                                                                                                                                                                                                                                                                                                                 |
 
 For development, use [testing](testing.md), [client verification](client-verification.md),
-[tool design](tool-design.md), [admission limits and recovery](https://github.com/morluto/rea/blob/main/docs/design/limits-and-recovery.md),
+[tool design](tool-design.md), [admission limits and recovery](design/limits-and-recovery.md),
 and [releasing](releasing.md).
 [Reconstruction readiness](reconstruction-readiness.md) describes a development
 conformance verifier. [The 6.2 migration](migration-6.2.md) records that release's
 compatibility changes; [the roadmap](roadmap.md) tracks future work.
 
-![REA inspecting a native binary in Hopper](https://github.com/morluto/rea/blob/main/docs/assets/rea-hopper-analysis.png)
+![REA inspecting a native binary in Hopper](./assets/rea-hopper-analysis.png)
